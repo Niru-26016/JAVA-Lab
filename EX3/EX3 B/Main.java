@@ -18,5 +18,9 @@ public class Main {
         catch(ArithmeticException e){
             System.out.println("Can not Divide by 0");
         }
+        finally{
+            sc.close();
+            System.out.println("Execution Completed");
+        }
     }
 }
