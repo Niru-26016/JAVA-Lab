@@ -13,7 +13,7 @@ public class Main {
             Numerator = sc.nextInt();
             System.out.println("Enter Denominator: ");
             Denominator = sc.nextInt();
-            System.out.printf("%d / %d = %d",Numerator,Denominator,Numerator/Denominator);
+            System.out.printf("%d / %d = %d\n",Numerator,Denominator,Numerator/Denominator);
         }
         catch(ArithmeticException e){
             System.out.println("Can not Divide by 0");
